@@ -1,0 +1,36 @@
+* {	
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b44747;
+}
+
+section {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+p {
+    height: 100%;
+    font-size: 0.9em;
+    letter-spacing: -0.05em;
+    line-height: 0.8em;
+    font-family: "Segoe UI", sans-serif;
+    background: url('blackground.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+	
